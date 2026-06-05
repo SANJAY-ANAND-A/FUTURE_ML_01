@@ -1,24 +1,24 @@
-# FUTURE_ML_01
+﻿# FUTURE_ML_01
 
-Machine Learning Task 1 Sales Forecasting
+Sales forecasting using train, stores, transactions, holidays, and oil datasets.
 
-How to run
+## Run
 
-1. Create a virtual environment
-
-2. Install dependencies
-
-3. Run the training script or open the notebook
-
-Commands
+1. Place `train.csv`, `stores.csv`, `transactions.csv`, `holidays_events.csv`, and `oil.csv` in the parent folder of this repository.
+2. Create a virtual environment.
+3. Install dependencies.
+4. Run the training script.
 
 ```
 python -m venv venv
-venv\\Scripts\\activate
+venv\Scripts\activate
 pip install -r requirements.txt
-python src\\train_forecast.py
+python src\train_forecast.py
 ```
 
-Submission
+## Deliverables
 
-Create a public GitHub repository named FUTURE_ML_01 and push this folder. Submit the GitHub link through the official Task Submission Portal using your CIN ID.
+- `models/rf_store_forecast.joblib`
+- `outputs/validation_forecast.csv`
+- `outputs/store_1_forecast.png`
+- `outputs/metrics.txt`
